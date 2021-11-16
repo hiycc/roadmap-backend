@@ -1,0 +1,11 @@
+{
+    "index": "demo.html",
+    "sources": [
+        "demo.html",
+        "code-view.html",
+        "code-view.js",
+        "code-view.css",
+        "demo.json"
+    ],
+    "view": "demo.html"
+}

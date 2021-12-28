@@ -3,6 +3,7 @@
 ## KeyPoint  
 1. SPDY基本上只是将单个域名(IP地址)的通信多路复用，所以当一个Web网站上使用多个域名下的资源，改善效果就会很受限制。
 2. SPDY是在TCP/IP的应用层与运输层之间通过加入新会话层的形式运作。同时考虑到安全问题，规定通信用SSL。  
+3. <font color=red>2015年9月，Google宣布移除对SPDY的支持，改支持HTTP/2</font>
 
 ## A  
 1. SPDY出现的背景？
@@ -23,9 +24,10 @@
 3. 可以对局部Web进行替换加载，减少了通信的数据量。但如果<font color=red>利用Ajax实时从服务器获取内容，有可能会产生大量的请求。</font>另外仍未解决HTTP协议本身的问题
 4. 通过延迟应答，将客户端的请求挂起，等到服务端内容更新后立即发送响应给客户端。<font color=red>为了保留响应，一次连接时间会变长，同时为了维持连接会消耗更多资源</font>
 5. 使用SPDY后，HTTP协议可以额外获得什么功能？
-   1. <font color=red>多路复用流</font>，通过单一的TCP连接，可以无限处理多个HTTP请求。
-   2. <font color=red>赋予请求优先级</font>
-   3. <font color=red>压缩HTTP首部</font>
-   4. <font color=red>推送功能</font>，支持服务器主动向客户端推送数据的功能。
-   5. 
-   6. 
+   1. <font color=blue>多路复用流</font>，通过单一的TCP连接，可以无限处理多个HTTP请求。
+   2. <font color=blue>赋予请求优先级</font>
+   3. <font color=blue>压缩HTTP首部</font>
+   4. <font color=blue>推送功能</font>，支持服务器主动向客户端推送数据的功能。
+6. WebSocket有哪些特点？
+   1. <font color=blue>推送功能</font>
+   2. <font color=blue>通信量减少</font>，WebSocket首部信息很小，通信量相应也减少。

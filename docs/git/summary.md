@@ -1,1 +1,1 @@
-[Pro Git中文版](/pdf/ProGit中文版本.pdf)
+[Pro Git中文版](https://pan.baidu.com/s/1sAOiTWAEmRBuaIUREtoZ8w?pwd=ti37)

@@ -24,6 +24,7 @@
   * [计算机网络-谢](docs/network/computer-network-xie/summary.md)
     * [概述](docs/network/computer-network-xie/概述.md)
     * [2-物理层](docs/network/computer-network-xie/2-物理层.md)
+    * [6-应用层](docs/network/computer-network-xie/6-应用层.md)
 * [Vue](docs/vue/summary.md)
   * [学前知识](docs/vue/学前知识.md)
   * [Vue-基础](docs/vue/Vue-基础.md)
@@ -35,3 +36,4 @@
 * [Git](docs/git/summary.md)
   * [ProGit](docs/git/ProGit/summary.md)
     * [1-起步](docs/git/ProGit/1-起步.md)
+    * [3-分支](docs/git/ProGit/3-分支.md)
